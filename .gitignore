@@ -1,0 +1,27 @@
+# 配置文件（可能包含敏感信息）
+config.py
+
+# 下载的视频文件
+downloads/
+
+# 已处理记录
+processed.json
+
+# 日志文件
+*.log
+
+# Chrome profile
+chrome_profile/
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/

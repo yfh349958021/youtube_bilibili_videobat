@@ -1,0 +1,16 @@
+# YouTube配置
+YOUTUBE_CHANNEL = "https://www.youtube.com/@dotacinema/videos"
+KEYWORDS = ["dota2", "dota 2"]  # 视频关键词过滤
+MAX_RESOLUTION = "2160p"  # 最高4K
+MAX_FPS = 60
+
+# B站配置
+# 使用Chrome浏览器profile保存登录状态
+BILIBILI_PROFILE = "/path/to/chrome/profile"
+
+# 文件配置
+DOWNLOAD_DIR = "./downloads"
+PROCESSED_FILE = "./processed.json"
+
+# 运行配置
+CHECK_INTERVAL = 1200  # 检查间隔（秒），默认20分钟
